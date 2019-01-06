@@ -1,40 +1,40 @@
-Poggit
+Poggitnode
 ===
 
 [Discord ![](https://img.shields.io/discord/402639859535052811.svg)](https://discord.gg/NgHf9jt)
 
 ## What is this?
-Poggit is a website for two things: a plugin builder (Poggit-CI) and a plugin list (Poggit-Release).
+Poggitnode is a website for two things: a plugin builder (Poggitnode-CI) and a plugin list (Poggitnode-Release).
 
 ## Features
-### Poggit-CI: plugin builder
-Poggit will build phars for your project when you push a commit or make a pull request.
+### Poggitnode-CI: plugin builder
+Poggit will build js files for your project when you push a commit or make a pull request.
 
-Login on the [Poggit website](https://poggit.pmmp.io) and authorize the Poggit application for your user account or your organizations. You can find buttons to enable Poggit-CI for particular repos at [https://poggit.pmmp.io/ci](the CI admin panel). Poggit will help you create the file `.poggit.yml` in your repo, and then Poggit will start building your projects in your repo every commit.
+Login on the [Poggitnode website](https://example.io) and authorize the Poggit application for your user account or your organizations. You can find buttons to enable Poggit-CI for particular repos at [https://example.io/ci](the CI admin panel). Poggit will help you create the file `.poggitnode.yml` in your repo, and then Poggitnode will start building your projects in your repo every commit.
 
-### Poggit-Release: plugin list
+### Poggitnode-Release: plugin list
 A project can be released after it has a development build. You can find the release button in the CI project page.
 
-You can find a list of released plugins at https://poggit.pmmp.io/plugins. You can also find plugins pending review at https://poggit.pmmp.io/review.
+You can find a list of released plugins at https://example.io. You can also find plugins pending review at https://example.io.
 
 ### Virions
-Poggit provides a library framework called ["Virions"](https://poggit.pmmp.io/virion).
+poggitnode does not have virons however this is a planned feature
 
-## Planned features
+## Planned Poggitnode features
 * Generate docs for plugins
 * Power an online translation platform for plugins
-* Manage a plugin requests list to substitute https://forums.pmmp.io/forums/requests
+* Manage a plugin requests list
 
 ## Can I host it myself?
 Yes, technically you can, although discouraged.
 
-Poggit manages a website that allows users to find plugins. Therefore, if everyone creates their own Poggit website, it will be confusing for users as plugin lists are scattered everywhere. For the sake of the community, unless you have improved your version of Poggit so much that the original version is no longer worth existing, please don't host a public Poggit yourself.
+Poggitnode manages a website that allows users to find plugins. Therefore, if everyone creates their own Poggitnode website, it will be confusing for users as plugin lists are scattered everywhere. For the sake of the community, unless you have improved your version of Poggitnode so much that the original version is no longer worth existing, please don't host a public Poggitnode yourself.
 
-However, for various reasons, mainly that I am a stubborn Free Software supporter, you can still host a Poggit instance yourself. This project is licensed under the Apache license, Version 2.0. You can obtain a full copy of this license at the [LICENSE](LICENSE) file.
+However, for various reasons, mainly that I am a stubborn Free Software supporter, you can still host a Poggitnode instance yourself. This project is licensed under the Apache license, Version 2.0. You can obtain a full copy of this license at the [LICENSE](LICENSE) file.
 
-Nevertheless, Poggit is open-sourced for developers, not businesses. It is here for developers to improve it, or to learn from it, _"to build software better, **together**"_. You are welcome if you want to host Poggit yourself for security reasons, or for testing. But if you are hosting Poggit for profit reasons, **I politely ask you not to do that**.
+Nevertheless, Poggitnode is open-sourced for developers, not businesses. It is here for developers to improve it, or to learn from it, _"to build software better, **together**"_. You are welcome if you want to host Poggitnode yourself for security reasons, or for testing. But if you are hosting Poggitnode for profit reasons, **I politely ask you not to do that**.
 
 ## Installation
-**Please** read [_Can I host it myself?_](#can-i-host-it-myself) before installing Poggit.
+**Please** read [_Can I host it myself?_](#can-i-host-it-myself) before installing Poggitnode.
 
-Then, refer to [INSTALL.md](INSTALL.md) for instructions to install Poggit.
+Then, refer to [INSTALL.md](INSTALL.md) for instructions to install Poggitnode.
